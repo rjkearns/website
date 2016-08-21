@@ -1,0 +1,175 @@
+body {
+	background-color: #232323 !important;
+}
+
+#left {
+	background-color: #efefef;
+	height: 100%;
+	overflow: hidden;
+}
+
+.profile {
+	padding-top: 50px;
+	text-align: center;
+}
+
+.profile h1 {
+	margin-top: 20px;
+}
+
+.profile img {
+	display: block;
+  margin: auto;
+	width: 180px;
+	height: 180px;
+	box-shadow: 5px 10px 5px #888888;
+}
+
+.profile h3 img {
+	width: 40px;
+	height: 40px;
+	box-shadow: none;
+	padding-top: 0;
+	display: inline;
+}
+
+.contact_me {
+	padding-top: 70px;
+}
+
+.contact_me a{
+    padding: 15px;
+    line-height: 50%;
+    letter-spacing: 1px;
+    color: #232323;
+    background-color: transparent;
+    border-color: #bf55ec;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.contact_me a:hover{
+	background-color: #bf55ec;
+	border-color: #bf55ec;
+	color: #efefef;
+	cursor: hand;
+	text-decoration: none;
+	-o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: -10;
+  left: 0;
+  padding: .75rem;
+}
+
+.footer p img {
+	width: 20px;
+	height: 20px;
+	box-shadow: none;
+	padding-top: 0;
+	display: inline;
+}
+
+.copy {
+	float: left;
+	text-align: center;
+	font-size: 10px;
+	padding-top: 5px;
+}
+
+.social {
+  float: right;
+  font-size: 18px;
+}
+
+.social a{
+	color: #232323;
+	text-decoration: none;
+}
+
+.social a:hover{
+	color: #81c341;
+	text-decoration: none;
+	-o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  /* ...and now for the proper property */
+  transition:.5s;
+}
+
+#right {
+	background-color: #232323;
+	height: 100%;
+	color: white;
+	overflow: scroll;
+}
+
+#right_box {
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+#right_title {
+	font-size: 14px;
+	color:#bf55ec;
+	float: right;
+	font-weight: 600;
+}
+
+#right_text {
+	padding-top: 2px;
+	font-size: 12px;
+	font-weight: 200;
+}
+
+#right_text a {
+	color: #53b8e7;
+}
+
+#right_text a:hover {
+	color: #ececec;
+	text-decoration: none;
+}
+
+#dates {
+	text-align: left;
+}
+
+@media only screen and (max-width: 1200px) {
+  #right {
+  	overflow: visible;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #right_title {
+  	float: none;
+  }
+  #right_text {
+  	width: 85%;
+  }
+}
+
+@media only screen and (max-width: 600px){
+	#about {
+		padding-left: 0px;
+	}
+	#projects {
+		padding-left: 0px;
+	}
+	#experience {
+		padding-left: 0px;
+	}
+	#right_text {
+  	width: 95%;
+  }
+}
